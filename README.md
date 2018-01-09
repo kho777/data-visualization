@@ -1,5 +1,5 @@
 # data-visualization
-Introduction
+# . Introduction
 Data Theory
 Effective chart
 Presentation
