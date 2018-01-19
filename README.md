@@ -1,9 +1,12 @@
 # data-visualization
 #  Introduction
 #  Data Theory
-#  Effective chart
-#  Presentation 101
+#  Messages in data
+#  Cognitive Science in DV
+#  Tool Survey
+#  R Workshop
+#  Stata Workshop
+#  Python Workshop
 #  R ggplot2
 #  R Shiny
-#  Stata
 #  D3
