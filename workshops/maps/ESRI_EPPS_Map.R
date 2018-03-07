@@ -5,12 +5,12 @@ preload("ggmap")
 preload("leaflet")
 geocode("School of Economic, Political and Policy Sciences")
 eppsgeo=geocode("School of Economic, Political and Policy Sciences")
-l <- leaflet() %>% setView(eppsgeo$lon, eppsgeo$lat, zoom=14)
+eppsmap <- leaflet() %>% setView(eppsgeo$lon, eppsgeo$lat, zoom=14)
 
 esri <- grep("^Esri", providers, value = TRUE)
 
 for (provider in esri) {
-  l <- l %>% addProviderTiles(provider, group = provider)
+  eppsmap <- eppsmap %>% addProviderTiles(provider, group = provider)
 }
 
 
@@ -22,14 +22,13 @@ findmeat <- paste(sep = "<br/>",
                  "Richardson TX 75080"
 )
 
-l %>%
+eppsmap %>%
   addLayersControl(baseGroups = names(esri),
                    options = layersControlOptions(collapsed = TRUE)) %>%
   # addMiniMap(tiles = esri[[1]], toggleDisplay = TRUE,
   #           position = "bottomleft") %>%
-  addMarkers(l, lng=-96.7478284, lat=32.9887987, popup=findmeat)  %>%
-  #  addMarkers(l, lng=eppsgeo$lon, lat=eppsgeo$lat, popup="School of Economic, Political and Policy Sciences, University of Texas at Dallas")  %>%
-  addMarkers(l, lng=114.15769, lat=22.28552, popup="Hong Kong")  %>%
+  addMarkers(eppsmap, lng=-96.7478284, lat=32.9887987, popup=findmeat)  %>%
+  #  addMarkers(eppsmap, lng=eppsgeo$lon, lat=eppsgeo$lat, popup="School of Economic, Political and Policy Sciences, University of Texas at Dallas")  %>%
   htmlwidgets::onRender("
                         function(el, x) {
                         var myMap = this;
