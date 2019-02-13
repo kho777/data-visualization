@@ -27,8 +27,8 @@ ggsave(filename = "bchartres300.png", ggplot(kschedule, aes(do, hour)) +
          labs(title="Karl's schedule", 
               subtitle="",
               caption="",
-              y="Number of hours",
-              x ="What does Karl do?"),
+              x="Number of hours",
+              y ="What does Karl do?"),
        width = 5, height = 4, dpi = 300, units = "in", device='png')
 
 ggsave(filename = "dotplotres300.png", ggplot(kschedule, aes(hour, do)) + geom_point()+
@@ -37,6 +37,6 @@ ggsave(filename = "dotplotres300.png", ggplot(kschedule, aes(hour, do)) + geom_p
          labs(title="Karl's schedule", 
               subtitle="",
               caption="",
-              y="Number of hours",
-              x ="What does Karl do?"),
+              x="Number of hours",
+              y ="What does Karl do?"),
        width = 5, height = 4, dpi = 300, units = "in", device='png')
