@@ -68,6 +68,12 @@ lines(x, dnorm(x), lwd=2)
 
 ## Boxplot
 
+boxplot(len ~ dose, data = ToothGrowth,
+        boxwex = 0.25, at = 1:3 - 0.2,
+        subset= supp == "VC", col="white",
+        xlab="",
+        ylab="tooth length", ylim=c(0,35))
+mtext("Vitamin C dose (mg)", side=1, line=2.5, cex=0.8)
 boxplot(len ~ dose, data = ToothGrowth, add = TRUE,
         boxwex = 0.25, at = 1:3 + 0.2,
         
@@ -75,6 +81,7 @@ boxplot(len ~ dose, data = ToothGrowth, add = TRUE,
 legend(1.5, 9, c("Ascorbic acid", "Orange juice"), 
        fill = c("white", "gray"), 
        bty="n")
+
 
 
 ## Pie chart
