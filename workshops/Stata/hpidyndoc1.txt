@@ -1,0 +1,75 @@
+<<dd_version: 1>>
+
+<head>
+<link rel="stylesheet" type="text/css" href="stmarkdown.css">
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
+</script>
+</head>
+
+<<dd_do: quietly>>
+syntax [anything(name=detail)]
+<</dd_do>>
+
+<<dd_do: quietly>>
+set linesize 80
+<</dd_do>>
+
+# A Study of Happy Planet Index.
+
+~~~~
+<<dd_do>>
+webuse set "https://raw.githubusercontent.com/kho777/data-visualization/master/data"
+webuse "hpi2016dataonly", clear
+<</dd_do>>
+~~~~
+
+Taking the log of GDP Per capita to make the variable more linear.
+
+~~~~
+<<dd_do>>
+gen lgdp=log(GDPcapitaPPP)
+label variable lgdp "GDP Per Capita (logged)"
+<</dd_do>>
+~~~~
+
+Create multiple variables for plots of Happy Planet Index using Region.
+Use the label statements to clean and shorten the variable labels for legend 
+
+~~~~
+<<dd_do>>
+separate HappyPlanetIndex, by(Region) shortlabel
+lab var HappyPlanetIndex1 "Americas"
+lab var HappyPlanetIndex2 "Asia Pacific"
+lab var HappyPlanetIndex3 "Europe"
+lab var HappyPlanetIndex4 "Middle East and North Africa"
+lab var HappyPlanetIndex5 "Post-communist"
+lab var HappyPlanetIndex6 "Sub Saharan Africa"
+<</dd_do>>
+~~~~
+
+## Explore relationship between HPI and GDP Per Capita
+
+~~~~
+<<dd_do>>
+scatter HappyPlanetIndex? lgdp, ytitle(Happy Planent Index)
+<</dd_do>>
+~~~~
+
+ <<dd_graph: sav("hpilgdp.png") alt("HPI~GDPPC") replace height(400)>>
+
+~~~~
+<<dd_do>>
+regress HappyPlanetIndex lgdp 
+<</dd_do>>
+~~~~
+
+<<dd_do:quietly>>
+matrix eb = e(b)
+<</dd_do>>
+
+The regression shows that for every unit increase in GDP Per Capita (logged), a 
+<<dd_display:%9.4f eb[1,1]>> unit increase in Happy Planet Index is predicted. 
