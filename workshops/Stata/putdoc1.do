@@ -3,7 +3,7 @@
 putdocx clear 
 putdocx begin
 putdocx paragraph, style("Title")
-putdocx text ("Produce a table from regression results")
+putdocx text ("Table 1. Happy Planet Index and GDP Per Capita")
 regress  HappyPlanetIndex lgdp 
 putdocx table tbl_est = etable
 putdocx save etable_1.docx, replace
