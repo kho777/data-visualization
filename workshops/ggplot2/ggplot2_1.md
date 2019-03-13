@@ -91,11 +91,16 @@ plot(lifeExp ~ year, gm, subset = country == "Cambodia", type = "b", pch=18, xla
 With ggplot2, we can apply the Grammer of Graphics methods and modify the chart with more finetuning and detail attention:
 
 Let's install the package, load it and try it step by step:
-## install.packages("ggplot2", repos ="https://cran.r-project.org")
-## library(ggplot2)
+
 
 ```r
-# More layered plots using ggplot2, with regression line
+## install.packages("ggplot2", repos ="https://cran.r-project.org")
+## library(ggplot2)
+```
+
+
+```r
+# More layered plots using ggplot2
 
 p <- ggplot2::ggplot(data = gm) 
 ```
@@ -115,7 +120,7 @@ p <- ggplot(data = gm,
 p + geom_point()
 ```
 
-![](ggplot2_1_files/figure-html/unnamed-chunk-7-1.png)<!-- -->
+![](ggplot2_1_files/figure-html/unnamed-chunk-8-1.png)<!-- -->
 
 First, we need to start the data component, then add the aesthetic mapping defining the basics (i.e. variables), followed by the geometric objects.  Here is an alternative: 
 
@@ -132,7 +137,7 @@ What is still missing?
 p + geom_point()
 ```
 
-![](ggplot2_1_files/figure-html/unnamed-chunk-9-1.png)<!-- -->
+![](ggplot2_1_files/figure-html/unnamed-chunk-10-1.png)<!-- -->
 
 Now, we can add more features to the chart.
 
@@ -145,7 +150,7 @@ p <- ggplot(data = gm,
 p + geom_point()
 ```
 
-![](ggplot2_1_files/figure-html/unnamed-chunk-10-1.png)<!-- -->
+![](ggplot2_1_files/figure-html/unnamed-chunk-11-1.png)<!-- -->
 You may try different markers using the pch option:
 
 
@@ -156,7 +161,7 @@ p <- ggplot(data = gm,
 p + geom_point(pch=6)
 ```
 
-![](ggplot2_1_files/figure-html/unnamed-chunk-11-1.png)<!-- -->
+![](ggplot2_1_files/figure-html/unnamed-chunk-12-1.png)<!-- -->
 
 
 Add a regression line, dropped the color grouping
@@ -169,7 +174,7 @@ p <- ggplot(data = gm,
 p + geom_point(pch=16) + geom_smooth(method="lm") 
 ```
 
-![](ggplot2_1_files/figure-html/unnamed-chunk-12-1.png)<!-- -->
+![](ggplot2_1_files/figure-html/unnamed-chunk-13-1.png)<!-- -->
 
 There are a series of methods for plotting the regression line.  
 
@@ -183,7 +188,7 @@ p <- ggplot(data = gm,
 p + geom_point(pch=16) + geom_smooth(method="loess") 
 ```
 
-![](ggplot2_1_files/figure-html/unnamed-chunk-13-1.png)<!-- -->
+![](ggplot2_1_files/figure-html/unnamed-chunk-14-1.png)<!-- -->
 
 Let's put the data in perspective.  Some variables have high variance. Apply log to make the more plottable:
 
@@ -197,7 +202,7 @@ p + geom_point(pch=16) + geom_smooth(method="lm") +
   scale_x_log10()
 ```
 
-![](ggplot2_1_files/figure-html/unnamed-chunk-14-1.png)<!-- -->
+![](ggplot2_1_files/figure-html/unnamed-chunk-15-1.png)<!-- -->
 
 Focus on color now!
 
@@ -212,7 +217,7 @@ p + geom_point() +
   scale_x_log10() # Why it is not purple?
 ```
 
-![](ggplot2_1_files/figure-html/unnamed-chunk-15-1.png)<!-- -->
+![](ggplot2_1_files/figure-html/unnamed-chunk-16-1.png)<!-- -->
 
 Make sure the color option is applied in the right place. 
 
@@ -225,7 +230,7 @@ p + geom_point(color = "purple") +
   geom_smooth(method = "loess") + scale_x_log10()
 ```
 
-![](ggplot2_1_files/figure-html/unnamed-chunk-16-1.png)<!-- -->
+![](ggplot2_1_files/figure-html/unnamed-chunk-17-1.png)<!-- -->
 
 Add a better theme than the default gray background with grid lines.
 
@@ -240,7 +245,7 @@ p + geom_point(color = "purple", pch=20) +
   geom_smooth(method = "loess") + scale_x_log10()
 ```
 
-![](ggplot2_1_files/figure-html/unnamed-chunk-17-1.png)<!-- -->
+![](ggplot2_1_files/figure-html/unnamed-chunk-18-1.png)<!-- -->
 
 Here comes the title. 
 
@@ -256,7 +261,7 @@ p + geom_point(color = "purple") +
   ggtitle("Life Expectacy and GDP Per Capita (logged)") 
 ```
 
-![](ggplot2_1_files/figure-html/unnamed-chunk-18-1.png)<!-- -->
+![](ggplot2_1_files/figure-html/unnamed-chunk-19-1.png)<!-- -->
 
 There is a better way to do all.
 
@@ -272,7 +277,7 @@ p + geom_point(color = "purple") +
        x="GDP Per Capita",y="Life Expectancy",caption="") 
 ```
 
-![](ggplot2_1_files/figure-html/unnamed-chunk-19-1.png)<!-- -->
+![](ggplot2_1_files/figure-html/unnamed-chunk-20-1.png)<!-- -->
 
 Alignment of title and caption takes a bit more work.  Use the theme function to specify alignment.
 
@@ -290,7 +295,7 @@ p + geom_point(color = "purple") +
   theme(plot.title = element_text(hjust = 0.5))
 ```
 
-![](ggplot2_1_files/figure-html/unnamed-chunk-20-1.png)<!-- -->
+![](ggplot2_1_files/figure-html/unnamed-chunk-21-1.png)<!-- -->
 
 And font.
 
@@ -308,6 +313,6 @@ p + geom_point(color = "purple") +
         text=element_text(size=16,family="Palatino"))
 ```
 
-![](ggplot2_1_files/figure-html/unnamed-chunk-21-1.png)<!-- -->
+![](ggplot2_1_files/figure-html/unnamed-chunk-22-1.png)<!-- -->
 
 Revised: *3/13/2019* 
