@@ -1,0 +1,578 @@
+[
+  {
+    "Date": "2017-07-01",
+    "Manufacturer": "BMW",
+    "Name": "740Le xDrive",
+    "Combined fuel consumption (mpg)": 113,
+    "CO₂ emissions (g/km)": 56,
+    "Eco rating": 9
+  },
+  {
+    "Date": "2017-06-24",
+    "Manufacturer": "Toyota",
+    "Name": "CH-R",
+    "Combined fuel consumption (mpg)": 47.1,
+    "CO₂ emissions (g/km)": 136,
+    "Eco rating": 7
+  },
+  {
+    "Date": "2017-06-10",
+    "Manufacturer": "Ssangyong",
+    "Name": "Tivoli XLV",
+    "Combined fuel consumption (mpg)": 57.6,
+    "CO₂ emissions (g/km)": 127,
+    "Eco rating": 7
+  },
+  {
+    "Date": "2017-06-03",
+    "Manufacturer": "Mini",
+    "Name": "Clubman Cooper S All 4",
+    "Combined fuel consumption (mpg)": 38.2,
+    "CO₂ emissions (g/km)": 168,
+    "Eco rating": 7
+  },
+  {
+    "Date": "2017-05-20",
+    "Manufacturer": "Alfa Romeo",
+    "Name": "Giulietta",
+    "Combined fuel consumption (mpg)": 74.3,
+    "CO₂ emissions (g/km)": 99,
+    "Eco rating": 9
+  },
+  {
+    "Date": "2017-05-06",
+    "Manufacturer": "Kia",
+    "Name": "Niro",
+    "Combined fuel consumption (mpg)": 74.3,
+    "CO₂ emissions (g/km)": 88,
+    "Eco rating": 9
+  },
+  {
+    "Date": "2017-04-22",
+    "Manufacturer": "Citroën",
+    "Name": "C3",
+    "Combined fuel consumption (mpg)": 76,
+    "CO₂ emissions (g/km)": 95,
+    "Eco rating": 9
+  },
+  {
+    "Date": "2017-04-15",
+    "Manufacturer": "VW",
+    "Name": "Amarok Aventura",
+    "Combined fuel consumption (mpg)": 36,
+    "CO₂ emissions (g/km)": 204,
+    "Eco rating": 3
+  },
+  {
+    "Date": "2017-04-08",
+    "Manufacturer": "Mazda",
+    "Name": "3 2.0",
+    "Combined fuel consumption (mpg)": 55.4,
+    "CO₂ emissions (g/km)": 119,
+    "Eco rating": 6
+  },
+  {
+    "Date": "2017-03-25",
+    "Manufacturer": "Fiat",
+    "Name": "Tipo",
+    "Combined fuel consumption (mpg)": 76,
+    "CO₂ emissions (g/km)": 98,
+    "Eco rating": 9
+  },
+  {
+    "Date": "2017-03-18",
+    "Manufacturer": "Mercedes",
+    "Name": "GLC 250 d 4Matic AMG",
+    "Combined fuel consumption (mpg)": 56,
+    "CO₂ emissions (g/km)": 143,
+    "Eco rating": 5
+  },
+  {
+    "Date": "2017-02-18",
+    "Manufacturer": "Jaguar",
+    "Name": "F-Pace R-Sport",
+    "Combined fuel consumption (mpg)": 53.3,
+    "CO₂ emissions (g/km)": 139,
+    "Eco rating": 7
+  },
+  {
+    "Date": "2017-02-04",
+    "Manufacturer": "Range Rover",
+    "Name": "Evoque",
+    "Combined fuel consumption (mpg)": 49.6,
+    "CO₂ emissions (g/km)": 149,
+    "Eco rating": 6
+  },
+  {
+    "Date": "2017-01-28",
+    "Manufacturer": "Peugeot",
+    "Name": 3008,
+    "Combined fuel consumption (mpg)": 52.3,
+    "CO₂ emissions (g/km)": 129,
+    "Eco rating": 7
+  },
+  {
+    "Date": "2017-01-21",
+    "Manufacturer": "Vauxhall",
+    "Name": "Mokka",
+    "Combined fuel consumption (mpg)": 43.5,
+    "CO₂ emissions (g/km)": 150,
+    "Eco rating": 7
+  },
+  {
+    "Date": "2017-01-14",
+    "Manufacturer": "Ferrari",
+    "Name": "California T",
+    "Combined fuel consumption (mpg)": 26.9,
+    "CO₂ emissions (g/km)": 250,
+    "Eco rating": 1
+  },
+  {
+    "Date": "2016-12-17",
+    "Manufacturer": "Lexus",
+    "Name": "RX 450h",
+    "Combined fuel consumption (mpg)": 51.4,
+    "CO₂ emissions (g/km)": 127,
+    "Eco rating": 7
+  },
+  {
+    "Date": "2016-10-12",
+    "Manufacturer": "Citroën",
+    "Name": "DS 3",
+    "Combined fuel consumption (mpg)": 52,
+    "CO₂ emissions (g/km)": 125,
+    "Eco rating": 7
+  },
+  {
+    "Date": "2016-12-03",
+    "Manufacturer": "Mercedes",
+    "Name": "E-class",
+    "Combined fuel consumption (mpg)": 72,
+    "CO₂ emissions (g/km)": 112,
+    "Eco rating": 7
+  },
+  {
+    "Date": "2016-11-12",
+    "Manufacturer": "Honda",
+    "Name": "Civic Tourer",
+    "Combined fuel consumption (mpg)": 72.4,
+    "CO₂ emissions (g/km)": 103,
+    "Eco rating": 8
+  },
+  {
+    "Date": "2016-10-29",
+    "Manufacturer": "Toyota",
+    "Name": "Rav4 hybrid",
+    "Combined fuel consumption (mpg)": 55.4,
+    "CO₂ emissions (g/km)": 118,
+    "Eco rating": 7
+  },
+  {
+    "Date": "2016-10-22",
+    "Manufacturer": "Citroën",
+    "Name": "Cactus",
+    "Combined fuel consumption (mpg)": 80.7,
+    "CO₂ emissions (g/km)": 95,
+    "Eco rating": 8
+  },
+  {
+    "Date": "2016-10-08",
+    "Manufacturer": "VW",
+    "Name": "California Ocean",
+    "Combined fuel consumption (mpg)": 44,
+    "CO₂ emissions (g/km)": 169,
+    "Eco rating": 5
+  },
+  {
+    "Date": "2016-10-01",
+    "Manufacturer": "Honda",
+    "Name": "Jazz",
+    "Combined fuel consumption (mpg)": 57,
+    "CO₂ emissions (g/km)": 114,
+    "Eco rating": 8
+  },
+  {
+    "Date": "2016-09-17",
+    "Manufacturer": "Audi",
+    "Name": "RS6",
+    "Combined fuel consumption (mpg)": 29,
+    "CO₂ emissions (g/km)": 223,
+    "Eco rating": 2
+  },
+  {
+    "Date": "2016-09-03",
+    "Manufacturer": "Renault",
+    "Name": "Mégane",
+    "Combined fuel consumption (mpg)": 76.4,
+    "CO₂ emissions (g/km)": 96,
+    "Eco rating": 9
+  },
+  {
+    "Date": "2016-08-13",
+    "Manufacturer": "Peugeot",
+    "Name": 2008,
+    "Combined fuel consumption (mpg)": 76.3,
+    "CO₂ emissions (g/km)": 96,
+    "Eco rating": 9
+  },
+  {
+    "Date": "2016-08-06",
+    "Manufacturer": "Ford",
+    "Name": "Focus",
+    "Combined fuel consumption (mpg)": 51.4,
+    "CO₂ emissions (g/km)": 127,
+    "Eco rating": 7
+  },
+  {
+    "Date": "2016-07-30",
+    "Manufacturer": "Citroën",
+    "Name": "DS3 Cabrio",
+    "Combined fuel consumption (mpg)": 78.5,
+    "CO₂ emissions (g/km)": 94,
+    "Eco rating": 8
+  },
+  {
+    "Date": "2016-07-16",
+    "Manufacturer": "Kia",
+    "Name": "Sportage",
+    "Combined fuel consumption (mpg)": 47.9,
+    "CO₂ emissions (g/km)": 154,
+    "Eco rating": 6
+  },
+  {
+    "Date": "2016-06-25",
+    "Manufacturer": "Toyota",
+    "Name": "Prius",
+    "Combined fuel consumption (mpg)": 94,
+    "CO₂ emissions (g/km)": 70,
+    "Eco rating": 9
+  },
+  {
+    "Date": "2016-07-18",
+    "Manufacturer": "Vauxhall",
+    "Name": "Astra Sports Tourer 1.6CDTi",
+    "Combined fuel consumption (mpg)": 67.3,
+    "CO₂ emissions (g/km)": 112,
+    "Eco rating": 7
+  },
+  {
+    "Date": "2016-06-11",
+    "Manufacturer": "Peugeot",
+    "Name": "208 GTI",
+    "Combined fuel consumption (mpg)": 52.3,
+    "CO₂ emissions (g/km)": 125,
+    "Eco rating": 7
+  },
+  {
+    "Date": "2016-06-04",
+    "Manufacturer": "Mazda",
+    "Name": "MX-5",
+    "Combined fuel consumption (mpg)": 41,
+    "CO₂ emissions (g/km)": 161,
+    "Eco rating": 5
+  },
+  {
+    "Date": "2016-05-14",
+    "Manufacturer": "VW",
+    "Name": "Sharan SE Nav 2.0 TDI 150PS DSG",
+    "Combined fuel consumption (mpg)": 57,
+    "CO₂ emissions (g/km)": 130,
+    "Eco rating": 6
+  },
+  {
+    "Date": "2016-05-07",
+    "Manufacturer": "Volvo",
+    "Name": "XC90",
+    "Combined fuel consumption (mpg)": 49.6,
+    "CO₂ emissions (g/km)": 149,
+    "Eco rating": 6
+  },
+  {
+    "Date": "2016-04-30",
+    "Manufacturer": "Skoda",
+    "Name": "Superb SE Business estate 2.0 TDI 150PS",
+    "Combined fuel consumption (mpg)": 68.9,
+    "CO₂ emissions (g/km)": 108,
+    "Eco rating": 7
+  },
+  {
+    "Date": "2016-04-16",
+    "Manufacturer": "Mazda",
+    "Name": "3 1.5D",
+    "Combined fuel consumption (mpg)": 74.3,
+    "CO₂ emissions (g/km)": 99,
+    "Eco rating": 9
+  },
+  {
+    "Date": "2016-04-09",
+    "Manufacturer": "Ssangyong",
+    "Name": "Korando",
+    "Combined fuel consumption (mpg)": 41.5,
+    "CO₂ emissions (g/km)": 177,
+    "Eco rating": 5
+  },
+  {
+    "Date": "2016-04-02",
+    "Manufacturer": "Citroën",
+    "Name": "C4 Cactus",
+    "Combined fuel consumption (mpg)": 80.8,
+    "CO₂ emissions (g/km)": 95,
+    "Eco rating": 9
+  },
+  {
+    "Date": "2016-03-26",
+    "Manufacturer": "Nissan",
+    "Name": "X-Trail",
+    "Combined fuel consumption (mpg)": 44,
+    "CO₂ emissions (g/km)": 149,
+    "Eco rating": 7
+  },
+  {
+    "Date": "2016-03-12",
+    "Manufacturer": "Volvo",
+    "Name": "V60 Cross Country",
+    "Combined fuel consumption (mpg)": 67.3,
+    "CO₂ emissions (g/km)": 111,
+    "Eco rating": 8
+  },
+  {
+    "Date": "2016-03-05",
+    "Manufacturer": "Séat",
+    "Name": "Alhambra",
+    "Combined fuel consumption (mpg)": 55.4,
+    "CO₂ emissions (g/km)": 132,
+    "Eco rating": 4
+  },
+  {
+    "Date": "2016-02-20",
+    "Manufacturer": "Fiat",
+    "Name": 500,
+    "Combined fuel consumption (mpg)": 67.3,
+    "CO₂ emissions (g/km)": 99,
+    "Eco rating": 9
+  },
+  {
+    "Date": "2016-02-13",
+    "Manufacturer": "Citroën",
+    "Name": "DS",
+    "Combined fuel consumption (mpg)": 72.4,
+    "CO₂ emissions (g/km)": 103,
+    "Eco rating": 9
+  },
+  {
+    "Date": "2016-02-06",
+    "Manufacturer": "Peugeot",
+    "Name": "308 GTi",
+    "Combined fuel consumption (mpg)": 47.1,
+    "CO₂ emissions (g/km)": 139,
+    "Eco rating": 7
+  },
+  {
+    "Date": "2016-01-30",
+    "Manufacturer": "Audi",
+    "Name": "Q7",
+    "Combined fuel consumption (mpg)": 48,
+    "CO₂ emissions (g/km)": 163,
+    "Eco rating": 6
+  },
+  {
+    "Date": "2016-01-23",
+    "Manufacturer": "Hyundai",
+    "Name": "Tucson",
+    "Combined fuel consumption (mpg)": 42.5,
+    "CO₂ emissions (g/km)": 170,
+    "Eco rating": 5
+  },
+  {
+    "Date": "2016-01-16",
+    "Manufacturer": "BMW",
+    "Name": "X1",
+    "Combined fuel consumption (mpg)": 57.6,
+    "CO₂ emissions (g/km)": 128,
+    "Eco rating": 7
+  },
+  {
+    "Date": "2016-01-02",
+    "Manufacturer": "Smart Car",
+    "Name": "Forfour",
+    "Combined fuel consumption (mpg)": 65.7,
+    "CO₂ emissions (g/km)": 99,
+    "Eco rating": 9
+  },
+  {
+    "Date": "2015-12-19",
+    "Manufacturer": "Vauxhall",
+    "Name": "Viva Se 1.0",
+    "Combined fuel consumption (mpg)": 62.8,
+    "CO₂ emissions (g/km)": 104,
+    "Eco rating": 8
+  },
+  {
+    "Date": "2015-12-12",
+    "Manufacturer": "Mini",
+    "Name": "JCW",
+    "Combined fuel consumption (mpg)": 42,
+    "CO₂ emissions (g/km)": 155,
+    "Eco rating": 6
+  },
+  {
+    "Date": "2015-12-05",
+    "Manufacturer": "Audi",
+    "Name": "RS3 Sportback",
+    "Combined fuel consumption (mpg)": 34.9,
+    "CO₂ emissions (g/km)": 194,
+    "Eco rating": 4
+  },
+  {
+    "Date": "2015-11-28",
+    "Manufacturer": "Ssangyong",
+    "Name": "Tivoli",
+    "Combined fuel consumption (mpg)": 65.7,
+    "CO₂ emissions (g/km)": 113,
+    "Eco rating": 8
+  },
+  {
+    "Date": "2015-11-21",
+    "Manufacturer": "Renault",
+    "Name": "Kadjar",
+    "Combined fuel consumption (mpg)": 62.8,
+    "CO₂ emissions (g/km)": 117,
+    "Eco rating": 8
+  },
+  {
+    "Date": "2015-11-14",
+    "Manufacturer": "Suzuki",
+    "Name": "Vitara",
+    "Combined fuel consumption (mpg)": 50.4,
+    "CO₂ emissions (g/km)": 130,
+    "Eco rating": 7
+  },
+  {
+    "Date": "2015-11-07",
+    "Manufacturer": "Vauxhall",
+    "Name": "Adam S",
+    "Combined fuel consumption (mpg)": 47.8,
+    "CO₂ emissions (g/km)": 139,
+    "Eco rating": 7
+  },
+  {
+    "Date": "2015-10-31",
+    "Manufacturer": "Fiat",
+    "Name": "500X",
+    "Combined fuel consumption (mpg)": 68.9,
+    "CO₂ emissions (g/km)": 109,
+    "Eco rating": 8
+  },
+  {
+    "Date": "2015-10-24",
+    "Manufacturer": "Séat",
+    "Name": "Ibiza 1.2 TSI 90PS Connect",
+    "Combined fuel consumption (mpg)": 57.6,
+    "CO₂ emissions (g/km)": 116,
+    "Eco rating": 8
+  },
+  {
+    "Date": "2015-10-10",
+    "Manufacturer": "Honda",
+    "Name": "Civic Type R",
+    "Combined fuel consumption (mpg)": 38.7,
+    "CO₂ emissions (g/km)": 170,
+    "Eco rating": 6
+  },
+  {
+    "Date": "2015-10-03",
+    "Manufacturer": "Mitsubishi",
+    "Name": "L200 Barbarian",
+    "Combined fuel consumption (mpg)": 42.8,
+    "CO₂ emissions (g/km)": 173,
+    "Eco rating": 5
+  },
+  {
+    "Date": "2015-09-26",
+    "Manufacturer": "Kia",
+    "Name": "Sorento",
+    "Combined fuel consumption (mpg)": 46.3,
+    "CO₂ emissions (g/km)": 161,
+    "Eco rating": 7
+  },
+  {
+    "Date": "2015-09-19",
+    "Manufacturer": "Mazda",
+    "Name": "CX-3",
+    "Combined fuel consumption (mpg)": 70.6,
+    "CO₂ emissions (g/km)": 105,
+    "Eco rating": 8
+  },
+  {
+    "Date": "2015-09-12",
+    "Manufacturer": "Nissan",
+    "Name": "Pulsar",
+    "Combined fuel consumption (mpg)": 48,
+    "CO₂ emissions (g/km)": 138,
+    "Eco rating": 7
+  },
+  {
+    "Date": "2015-09-05",
+    "Manufacturer": "Citroën",
+    "Name": "DS5",
+    "Combined fuel consumption (mpg)": 68.9,
+    "CO₂ emissions (g/km)": 105,
+    "Eco rating": 7
+  },
+  {
+    "Date": "2015-08-29",
+    "Manufacturer": "Volvo",
+    "Name": "XC90",
+    "Combined fuel consumption (mpg)": 48.7,
+    "CO₂ emissions (g/km)": 152,
+    "Eco rating": 6
+  },
+  {
+    "Date": "2015-08-22",
+    "Manufacturer": "Séat",
+    "Name": "Leon Cupra",
+    "Combined fuel consumption (mpg)": 42.2,
+    "CO₂ emissions (g/km)": 157,
+    "Eco rating": 6
+  },
+  {
+    "Date": "2015-08-15",
+    "Manufacturer": "VW",
+    "Name": "Polo GTi",
+    "Combined fuel consumption (mpg)": 47.1,
+    "CO₂ emissions (g/km)": 139,
+    "Eco rating": 7
+  },
+  {
+    "Date": "2015-08-08",
+    "Manufacturer": "Hyundai",
+    "Name": "i30 Turbo",
+    "Combined fuel consumption (mpg)": 44,
+    "CO₂ emissions (g/km)": 169,
+    "Eco rating": 7
+  },
+  {
+    "Date": "2015-08-01",
+    "Manufacturer": "Skoda",
+    "Name": "Fabia",
+    "Combined fuel consumption (mpg)": 60.1,
+    "CO₂ emissions (g/km)": 107,
+    "Eco rating": 8
+  },
+  {
+    "Date": "2015-07-25",
+    "Manufacturer": "Honda",
+    "Name": "CR-V",
+    "Combined fuel consumption (mpg)": 55.4,
+    "CO₂ emissions (g/km)": 139,
+    "Eco rating": 7
+  },
+  {
+    "Date": "2015-07-04",
+    "Manufacturer": "Subaru",
+    "Name": "Outback",
+    "Combined fuel consumption (mpg)": 50.4,
+    "CO₂ emissions (g/km)": 159,
+    "Eco rating": 6
+  }
+]

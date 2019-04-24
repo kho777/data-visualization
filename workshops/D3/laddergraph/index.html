@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+  <meta charset="UTF-8">
+  <title>Ladder graph of cars' Eco Ratings</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="js-laddergraph laddergraph"></div>
+
+  <h1 class="chart-title">
+    Cars reviewed in the Guardian’s <a href="https://www.theguardian.com/technology/series/ontheroad">‘On&nbsp;The&nbsp;Road’</a>&nbsp;column
+  </h1>
+
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="laddergraph.js"></script>
+
+  <script>
+    'use strict';
+
+    (function() {
+
+      d3.json('data.json', function(error, data) {
+        if (error) {
+          throw error;
+        };
+
+        var laddergraph = charts.laddergraph()
+                          .leftKey1('Combined fuel consumption (mpg)')
+                          .leftKey2('CO₂ emissions (g/km)')
+                          .leftKey2Orientation('inverted')
+                          .rightKey('Eco rating')
+                          .tooltipFormat(function(d) {
+                            var text = '<strong>' + d.Manufacturer + ' ' + d.Name + '</strong>';
+                            text += '<dl>';
+                            text += '<dt>Date reviewed</dt><dd>' + d.Date + '</dd>';
+                            text += '<dt>Combined fuel consumption</dt><dd>' + d['Combined fuel consumption (mpg)'] + 'mpg</dd>';
+                            text += '<dt>CO₂ emissions</dt><dd>' + d['CO₂ emissions (g/km)'] + 'g/km</dd>';
+                            text += '<dt>Eco rating</dt><dd>' + d['Eco rating'] + '/10</dd>';
+                            text += '</dl>';
+                            return text;
+                          });
+
+        d3.select('.js-laddergraph')
+            .datum(data)
+            .call(laddergraph);
+      });
+
+    })();
+
+  </script>
+
+</body>
+</html>
